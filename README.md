@@ -33,8 +33,8 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Sharath-1517/Product-preview-page)
-- Live Site URL(Netlify): [Add live site URL here](https://products-review-page.netlify.app/)
-- Live Site URL(GitHub): [Add live site URL here](https://products-review-page.netlify.app/)
+- Live Site URL: [(Netlify)](https://products-review-page.netlify.app/)
+- Live Site URL: [(GitHub)](https://products-review-page.netlify.app/)
 
 ## My process
 
