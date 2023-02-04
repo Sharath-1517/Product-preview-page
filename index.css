@@ -11,7 +11,7 @@ body {
   height: 100vh;
 }
 
-@media screen and (min-width: 375px) and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   body .container {
     display: block;
     width: 460px;
@@ -29,7 +29,7 @@ body {
   }
 }
 @media screen and (min-width: 800px) {
-  body .product-image-mobile {
+  .product-image-mobile {
     display: none;
   }
 }
@@ -47,6 +47,7 @@ body {
   font-weight: 100;
   font-size: 1.1rem;
   color: grey;
+  text-transform: uppercase;
   letter-spacing: 5px;
 }
 
@@ -73,13 +74,12 @@ body {
        column-gap: 20px;
   font-family: "Fraunces", serif;
 }
-.product-prices-selling {
+.product-prices .previous-price {
   font-weight: 100;
   font-size: 1.2rem;
   color: grey;
-  text-decoration: line-through;
 }
-.product-prices-discount {
+.product-prices .selling-price {
   font-size: 2.7rem;
   font-weight: 700;
   color: hsl(158deg, 36%, 37%);
@@ -104,6 +104,11 @@ body {
 
 .cart {
   width: 22px;
+}
+
+.add-to-cart {
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 .product-image-desktop {
